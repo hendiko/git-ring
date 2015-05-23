@@ -1,0 +1,26 @@
+{
+    "mailer": {
+        "smtp": {
+            "server": "smtp.qq.com",
+            "user": "your_user_id",
+            "pw": "your_password",
+            "sender": "your_user_id@qq.com"
+        }
+    },
+    "mail": {
+        "recipients": [],
+        "subject": "Git Ring",
+        "to": ["hendikoy@gmail.com"],
+        "sc": ["hendikoy@gmail.com"],
+        "from": "xavier@git.ring",
+        "subtype": "html",
+        "charset": "utf8",
+        "msg": ""
+    },
+    "commit": {
+        "new": "",
+        "old": "",
+        "ref": "",
+        "sha1": ""
+    }
+}
