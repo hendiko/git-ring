@@ -120,7 +120,7 @@ def send_mail2(msg, to_addrs, subject=None, subtype=None, charset=None, from_add
         to_addrs = ';'.join(to_addrs)
 
     smtp = SMTPMailer("test_08@qq.com", "smtp.qq.com")
-    smtp.login("test_08", "Abc12345")
+    smtp.login("test_08", "000000")
     smtp.mail_subject = "Test W"
     smtp.set_mail_headers(to_addrs=to_addrs, subject=subject, from_addr=from_addr)
     smtp.send_mail(msg, to_addrs, subtype=subtype, charset=charset)
